@@ -1,8 +1,6 @@
 WindowsLayoutSnapshot
 =====================
 
-<img style="float:right" src="screenshot.jpg" />
-
 Ever switch monitor configs on your laptop and all of your windows are squished down in size and in the wrong position?  Ever want to minimize all windows but save their layouts and min-max'ed states for later?
 
 WindowsLayoutSnapshot is a windows app to remember and restore window positions.
@@ -18,6 +16,11 @@ The app takes a "snapshot" of your windows layouts every thirty minutes.  You ca
 * As you mouse over each snapshot, it is restored, so it's easy to find the layout you want.
 * Snapshots keep track of, and restore, the "normal size" of windows even if they're currently minimized or maximized.
 * This app makes sure all windows fit inside a currently-visible display when restoring snapshots.  Because of that, if you ever have a window that's off-screen because of a bug in other software, just restore the "(Just now)" snapshot.
+* Snapshots are not stored across app instances (or, thus, restarts).
+
+
+#### Screenshot
+<img src="https://raw.github.com/adamsmith/WindowsLayoutSnapshot/master/screenshot.png" />
 
 
 #### License
